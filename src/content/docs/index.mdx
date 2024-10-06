@@ -16,7 +16,6 @@ hero:
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
-import { YouTube } from 'astro-embed';
 import { Image } from 'astro:assets';
 import concertposterspring2019 from '../../assets/concertposterspring2019.jpg';
 import concertposterspring2018 from '../../assets/concertposterspring2018.jpg';
@@ -48,7 +47,22 @@ In 1978, Bill Leuty had a dream to start a community choir in Summerside, PEI, C
 
 ## Performances
 
-<YouTube id="https://youtu.be/niIwmOOsxNs" />
+<div>
+    <iframe
+      width = "100%"
+      
+      loading = "lazy"
+      src="https://www.youtube.com/embed/niIwmOOsxNs"
+      title="videoTitle"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      frameBorder="0"
+      webkitallowfullscreen="true"
+      mozallowfullscreen="true"
+      allowFullScreen
+    />
+    <p>See more videos of the choir on <a href="https://www.youtube.com/user/SummersideChoirPEI/">our YouTube page!</a></p>
+
+  </div>
 
 ### Upcoming concerts
 
