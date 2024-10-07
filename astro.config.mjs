@@ -6,6 +6,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Summerside Choir',
+			favicon: '/scclogo.png',
 			social: {
 				facebook: 'https://www.facebook.com/pages/Summerside-Community-Choir/125415017614194',
 				youtube: 'https://www.youtube.com/user/SummersideChoirPEI/',
