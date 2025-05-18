@@ -18,7 +18,7 @@ export default defineConfig({
 				src: './src/assets/SSCC_LOGO.jpg',
 			},
 			social: [
-				{ icon: 'facebook', label: 'Facebook', href: 'https://www.facebook.com/pages/Summerside-Community-Choir/125415017614194' },
+				{ icon: 'facebook', label: 'Facebook', href: 'https://www.facebook.com/SummersideChoir/' },
 				{ icon: 'youtube', label: 'YouTube', href: 'https://www.youtube.com/user/SummersideChoirPEI/' },
 			],
 			customCss: [
