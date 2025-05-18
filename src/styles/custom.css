@@ -16,3 +16,22 @@
         grid-template-columns: repeat(4, minmax(0, 1fr)); 
     } */
 }
+
+.top {
+    --offset: 2000px; 
+
+    position: sticky;
+    bottom: 20px;  
+    left: 100vw;
+    margin-top: calc(100vh + var(--offset)); 
+
+    /* visual styling */
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    color: #fff;
+    background: var(--sl-color-accent);
+    border-radius: 100px;
+    white-space: nowrap;
+}
+  
