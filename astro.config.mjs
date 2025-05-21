@@ -24,6 +24,21 @@ export default defineConfig({
 			customCss: [
 				'./src/styles/custom.css',
 			],
+			head: [
+				{tag: "script",
+					attrs: {
+					 "data-goatcounter": "https://summersidechoir.goatcounter.com/count",
+					 async: true,
+					 src: "//gc.zgo.at/count.js",
+					}
+				},
+				{tag: "meta", 
+					attrs: {
+					  property: "og:image", 
+					  content: "/scc.jpg",
+					}
+				},
+			],
 		}),
 	],
 }); 
